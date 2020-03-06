@@ -1,0 +1,604 @@
+@charset "utf-8";
+
+/*Resets*/
+ul 
+{
+	padding: 0;
+	margin: 0 0 20px 0;
+	list-style: none;
+}
+
+h1,h2 
+{
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-weight: normal;
+}
+
+p 
+{	
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+a:link, a:visited 
+{
+	text-decoration: underline;
+	color: #000;
+}
+
+a:hover 
+{
+	text-decoration: none;
+}
+
+ul li
+{
+	padding: 5px 0;
+}
+
+ul li input[type="text"] , ul li input[type="password"] 
+{
+	width: 200px;
+}
+
+
+/*Header*/
+h1 
+{
+	font-size: 2.8em;
+}
+
+h2 
+{
+	font-size: 1.4em;
+}
+
+.logo 
+{
+	font: 3.5em Arial;
+	margin: 0 0 5px 0;
+	padding-top: 30px;
+	width: 700px;
+	color: #e8491d;
+	font-weight: bold;
+}
+	
+	
+	
+/*container*/
+body 
+{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #7b7b7b;
+}
+
+#container, #containerf 
+{
+	background: #fff;	
+	padding: 20px;
+}
+
+header
+{	
+	background-color: #35424a;
+	padding: 40px;
+	min-height: 120px;	
+	border-bottom: #e8491d 10px solid;
+}
+
+#container
+{
+	min-height: 430px;
+	border-radius: 5px 5px 0 0;
+}
+
+#containerf
+{
+	min-height: 50px;	
+	padding-bottom: 20px;
+	border-top: #e8491d 1px solid;
+	
+}
+
+footer 
+{
+	border-radius: 0 0 5px 5px;
+}
+
+.widget
+{
+	margin-bottom: 20px;
+}
+
+.widget h2
+{
+	margin: 0 0 10px 0;
+	padding: 0 5px;
+	font-weight: normal;
+	border-bottom: 1px solid #ddd;
+}
+
+.widget .inner
+{
+	margin: 0 10px;
+}
+
+
+
+ /*Navigation*/	
+nav
+{
+	float: right; 	
+}
+nav ul {
+margin: 0;
+}
+
+nav ul li 
+{
+	display: inline;
+	margin-right: 10px;	
+}
+
+nav ul li a 
+{
+	text-decoration: none;
+}
+ 
+ 
+ 
+ /*Aside*/
+aside
+{
+ 	width: 260px;
+ 	float: right;
+ 	border-left: 1px dashed #ddd;
+ 	padding-left: 15px;
+}
+ 
+ 
+ 
+ /*Login*/
+#login li.link
+{
+ 	margin-top: 5px;
+}
+ 
+ 
+ /*Footer*/
+footer
+{
+ 	color: #e8491d; 
+ 	text-align: center;	 	
+ 	border-top: #e8491d 5px solid;
+ 	height: 120px;
+ 	background: #35424a;	
+	padding: 12px;
+}
+ 
+ /*Misc*/
+.clear
+{
+ 	clear: both;
+}
+ 
+ 
+ 
+ 
+ 
+ /* Horizontal Scrollable Menu */
+div.scrollmenu 
+{
+	background-color: #333;
+	overflow: auto;
+	white-space: nowrap;	
+}
+
+div.scrollmenu a 
+{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+
+div.scrollmenu a:hover 
+{
+	background-color: #777;
+}
+
+
+
+
+/*Boxes*/
+div#boxes 
+{
+	margin-top: 20px;	
+}
+
+div#boxes .box 
+{
+	float: right;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+div#boxes .box img 
+{
+	width: 180px;
+}
+
+/* MENU BAR */
+
+.menubar a 
+{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;	
+}
+
+.menubar 
+{
+    background: #35424a;
+	color: #ffffff;	
+	border-top: #e8491d 3px solid;
+	border-bottom: #e8491d 5px solid;	
+	height: 45px;
+	width: 100%;	
+}
+
+.menubar nav 
+{
+	float: right;
+	margin-top: 10px;
+}
+
+.menubar .current a 
+{
+	color: #e8491d;
+	font-weight: bold;
+}
+
+.menubar li 
+{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+.menubar a:hover 
+{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+
+/*Boxes Footer*/
+#boxaddress 
+{
+	margin-top: 5px;
+	
+}
+
+#boxaddress .box 
+{
+	float: center;
+	text-align: center;
+	font-size: 12px;
+	font-style: bold;
+	color: #000000;
+	width: 30%;
+	padding: 10px;
+	display: inline-block;	
+}
+
+
+
+/* Registration */
+#registration {	
+	padding-left: 60px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #ffffff;
+	background: #35424a;
+}
+
+#registration label 
+{
+	display: inline-block;
+	width: 150px;
+}
+
+#registration input[type="text"], input[type="password"], input[type="date"], input[type="email"] 
+{
+	display: inline-block;
+	width: 170px;
+}
+
+#registration input[type="radio"] 
+{
+	display: inline-block;
+	width: 30px;
+}
+
+
+
+/* DROPDOWN BOX */
+
+.dropbtn:hover, .dropbtn:focus 
+{
+  background-color: #3e8e41;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1; 
+}
+
+.dropdown-content a 
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+}
+
+.dropdown a:hover 
+{
+	background-color: #808080;
+}
+
+.show 
+{
+	display: block;
+}
+
+
+.dropbtn 
+{
+	color: #e8491d;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	border: #e8491d 1.5px solid;
+	display: inline;
+	font-style: bold;
+}
+
+
+
+/* ***** ABOUT US ***** */
+/* Main-col */
+#main-col 
+{	
+	float: left;
+	width: 65%;
+}
+
+aside #sidebar_about 
+{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+.dark_about 
+{
+	padding: 15px;
+	background: #35424a;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+aside #sidebar1 .quote input, aside #sidebar1 .quote textarea 
+{
+	width: 90%;
+	padding: 5px;
+}
+
+
+/* Change Password */
+#changepass 
+{	
+	padding-left: 60px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #ffffff;
+	background: #35424a;
+}
+
+#changepass label 
+{
+	display: inline-block;
+	width: 180px;
+}
+
+#changepass input[type="password"] 
+{
+	display: inline-block;
+	width: 180px;
+}
+
+ /* *** PAGINATION BOOKS **** */
+ 
+.pagination a 
+{
+  color: black;
+  font-style: bold;
+  font-size: 20px;
+  float: left;
+  padding: 10px 18px;
+  margin: 0 4px;
+  margin-top: 20px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: #e8491d 1.5px solid; 
+}
+
+/* Style the active/current link */
+.pagination a.active 
+{
+  background-color: #00ff00;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) 
+{
+	background-color: #e8491d;
+} 
+
+
+
+/*  ****** BOOKS ****** */
+
+#books 
+{	
+	padding-top: 15px;	
+	color: #ffffff;
+	background: #c0c0c0;
+}
+
+/*containerbooks*/
+body 
+{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #7b7b7b;
+}
+
+#containerbooks 
+{
+	background: #fff;	
+	min-height: 800px;
+	border-radius: 5px 5px 5px 5px;
+	background: #c0c0c0;
+}
+
+#books #table 
+{
+	width: 100%; 
+	border: 3px solid;
+	border-color: #000000;
+}
+
+#books #rowbook 
+{	 
+	border: 1.5px solid;
+	border-color: #000000;
+	text-align: center;
+}
+
+
+/* ***** SEARCH BOOKS ******** */
+
+.searchbooks 
+{	
+	font-size: 14px;
+	font-style: bold;
+	font-family: Gothic;	
+	padding-top: 0;	
+}
+
+.searchbooks h1 
+{
+	color: #000000;
+	margin: 1px 0 5px 20px;
+	padding: 0;
+}
+
+.search-field 
+{
+	height: 40px;
+	padding: 10px;
+	border: #e8491d 1px solid;
+	border-radius: 8px 8px 8px 8px;
+	margin-left: 20px;
+	width: 400px;
+}
+
+.search-btn 
+{
+	height: 40px;
+	width: 150px;
+	padding: 10px;
+	background: #e8491d;
+	margin-left: 10px;
+	border: #000000 1px solid;
+	border-radius: 8px 8px 8px 8px;
+	font-size: 14px;
+	font-style: bold;
+}
+
+.search-btn:hover 
+{
+	background: #fff;
+	cursor: pointer;
+}
+
+
+
+/* ***** SEARCH BOOKS BY GENRE ****** */
+
+.bookgenre label 
+{	
+	color: #000000;
+	font-size: 16px;
+	margin: 1px 5px 5px 20px;
+	padding: 0;
+	border-bottom: #000000 1px solid;
+	
+}
+
+#genresearch 
+{
+	height: 40px;
+	width: 210px;
+	padding: 10px;
+	background: #e8491d;
+	margin-left: 10px;
+	border: #000000 1px solid;
+	border-radius: 8px 8px 8px 8px;
+	font-size: 14px;
+	font-style: bold;
+}
+
+
+
+/* Media Queries */
+@media ( max-width : 768px) 
+{
+	header #branding, header nav, header nav li, #newsletter h1, #newsletter form,
+	#boxes .box, article#main-col, aside#sidebar 
+	{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	header 
+	{
+		padding-bottom: 20px;
+	}
+	
+}
